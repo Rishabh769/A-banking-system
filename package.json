@@ -4,7 +4,7 @@
   "description": "this is a website for a banking system",
   "main": "app.js",
   "scripts": {
-    "start": "echo \"node app.js"
+    "start": "node app.js"
   },
   "author": "Rishabh soni",
   "license": "ISC",
