@@ -1,0 +1,120 @@
+doctype html
+html(lang='en')
+  head
+    // Required meta tags
+    meta(charset='utf-8')
+    |     
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // Bootstrap CSS
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6', crossorigin='anonymous')
+    |     
+    title THE SPARKS BANKING
+  body.background-fluid(style='background:linear-gradient(rgb(47, 10, 88) ,black); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;   ')
+    nav.navbar.navbar-expand-lg.navbar-light(style='background-color: #8bb9ee;')
+      .container-fluid
+        a.navbar-brand.btn.btn-outline-secondary(href='/aboutus') The Sparks Bank
+        |             
+        button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        |             
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.me-auto.mb-2.mb-lg-0
+            li.nav-item
+              a.nav-link(aria-current='page', href='/') Home
+            |                     
+            li.nav-item
+              a.nav-link.active(href='/aboutus') About us
+            |                     
+            li.nav-item
+              a.nav-link(href='/allaccounts') All clients
+            |                     
+            li.nav-item
+              a.nav-link(href='/transactions') Transactions
+          |                 
+          
+    |     
+    .container.my-4
+      .row.featurette.d-flex.justify-content-center.align-items-center
+        .col-md-7.order-md-2
+          h2.featurette-heading
+            span(style="color:rgb(137, 181, 231); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;")
+              | An
+              | online transactional system.
+          |                 
+          p.lead(style='color:aliceblue')
+            | We at sparks bank make sures the transactional information of
+            | our customers are secured. The sparks bank is providing trust to the customers since 1999.
+        |             
+        .col-md-5
+          img.bd-placeholder-img.bd-placeholder-img-lg.featurette-image.img-fluid.mx-auto(src='../static/phone.jpg' alt='')
+    |     
+    .container.my-5.order-md-1
+      .row.featurette.d-flex.justify-content-center.align-items-center
+        .col-md-7
+          h2.featurette-heading
+            span(style="color:rgb(91, 149, 214); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;")
+              | Send
+              | Money with ease.
+          |                 
+          p.lead(style='color:aliceblue')
+            | The sparks bank is a website that provide user friendly
+            | interface to the customers to send money from one account to other account.
+        |             
+        .col-md-5
+          img.bd-placeholder-img.bd-placeholder-img-lg.featurette-image.img-fluid.mx-auto(src='../static/t2.jpg')
+    |     
+    .container.my-4
+      .row.featurette.d-flex.justify-content-center.align-items-center
+        .col-md-7.order-md-2
+          h2.featurette-heading
+            span(style="color:rgb(137, 181, 231); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ")
+              | Awards
+              | and recognition
+          |                 
+          p.lead(style='color:aliceblue')
+            | Our company continues to be recognized for our ethical culture, management quality, social
+            | responsibility, inclusive culture, digital capabilities and more. Notable recent honors include:
+          |                 
+          p(style='color:aliceblue')
+            | 1. 2021 World&rsquo;s Most Ethical Companies by the Ethisphere Institute.
+          |                 
+          p(style='color:aliceblue')
+            | 2. 2020 DiversityInc Top 50 Companies for transactions.
+          |                 
+          p(style='color:aliceblue') 3. 2020 Best for data analyst.
+        |             
+        .col-md-5
+          img.bd-placeholder-img.bd-placeholder-img-lg.featurette-image.img-fluid.mx-auto(src='../static/a2.jpg')
+    |     
+    footer.footer(style='position:inhert; \
+    bottom:0;\
+    width:100%;\
+    height:37px; color:white;   \
+    ')
+      ul(style='list-style-type: none;')
+        li.m-lg-0(style='float: left; ')
+          small
+            small
+              small Project by Rishabh
+        small
+          small
+            small
+              li.my-1.mx-3(style='float: left;')
+                a(href='https://www.linkedin.com/in/rishabh-soni-58408220a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B5KVD3exIT6iTWXyykWJaRw%3D%3D')
+                  img(src='../static/linkedin.jpg')
+              |             
+              li(style='float: left;')
+                img(src='')
+      small
+        small
+          small
+    small
+      small
+        small
+          // Optional JavaScript; choose one of the two!
+          // Option 1: Bootstrap Bundle with Popper
+          script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js', integrity='sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf', crossorigin='anonymous')
+          // Option 2: Separate Popper and Bootstrap JS
+          //
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
