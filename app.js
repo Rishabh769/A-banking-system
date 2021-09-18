@@ -5,7 +5,7 @@ const port = 80;
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 require('./models/user');
-require('./models/transactionHistory');
+require('./models/transactionhistory');
 const User = mongoose.model('User');
 const History = mongoose.model('History');
 
